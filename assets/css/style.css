@@ -495,3 +495,52 @@ a {
 .member__control-next-icon {
   rotate: 180deg;
 }
+
+/* <!----------------------------- install TRANG 6 -------------------------> */
+.install {
+  margin-top: 265px;
+}
+
+.install__inner {
+  display: flex;
+  border-radius: 4px;
+  background: #2e80ce;
+  padding: 0 70px;
+  width: 1170px;
+  height: 427px;
+  flex-shrink: 0;
+  gap: 160px;
+}
+
+.section-heading {
+  margin-top: 76px;
+}
+
+.install__img {
+  margin-top: -95px;
+}
+
+.install__heading {
+  width: 489px;
+  color: #fff;
+  line-height: 60px;
+}
+
+.install__desc {
+  width: 586px;
+  color: #fff;
+  margin: 16px 0 38px 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.install__row {
+  column-gap: 28px;
+}
+
+.install__btn {
+  outline: none;
+  border: none;
+  background: transparent;
+}
