@@ -363,3 +363,48 @@ a {
   font-weight: 400;
   line-height: 28px; /* 175% */
 }
+
+/* ================================feature TRANG 4============================================*/
+.feature {
+  margin-top: 85px;
+  padding: 85px 0;
+}
+
+.feature__inner {
+  display: flex;
+  gap: 130px;
+  align-items: center;
+}
+
+.feature-media {
+  width: 48%;
+}
+
+.feature__images {
+  position: relative;
+  padding-bottom: 121px;
+  padding-right: 58px;
+}
+
+.feature__img {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.feature__img:last-child {
+  position: absolute;
+  width: 332px;
+  height: 370px;
+  right: 0;
+  bottom: 0;
+}
+
+.feature__desc {
+  color: #575f66;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 18px 0 38px 0;
+}
