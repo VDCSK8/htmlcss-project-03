@@ -695,6 +695,7 @@ a {
 }
 
 .appointment__heading {
+  width: 813px;
   position: relative;
   padding-bottom: 20px;
 }
@@ -718,4 +719,133 @@ a {
   max-width: 617px;
   margin: 18px auto 38px;
   font-size: 1.6rem;
+  color: #575f66;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+/* <---------------------------- footer TRANG 9 --------------------------->*/
+.footer {
+  padding: 100px 0;
+  background: #10375c;
+}
+
+.footer_row {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+  column-gap: 78px;
+}
+
+.footer__desc {
+  margin-top: 20px;
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 336px;
+}
+
+.footer__heading {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  margin-bottom: 28px;
+}
+
+.footer__link {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__item {
+  margin-bottom: 10px;
+}
+
+.footer__item-1 {
+  margin-bottom: 14px;
+}
+
+.footer__social {
+  display: flex;
+  column-gap: 10px;
+}
+
+.footer__social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border-radius: 50%;
+  color: #2e80ce;
+  transition: 0.25s;
+  margin-bottom: 28px;
+}
+
+.footer__social-btn:hover {
+  background: #2e80ce;
+  color: #fff;
+}
+
+.footer__form {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__form-input {
+  background: transparent;
+  width: 212px;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  padding: 0 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.footer__form-input::placeholder {
+  color: #9ca8b1;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-form__submit {
+  --height: 46px;
+  min-width: 108px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  border-color: #2e80ce;
+}
+.footer__copyright {
+  padding: 28px 0 42px;
+  border-top: 1px solid #406181;
+}
+.footer__copyright-desc {
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
+  color: #aab3ba;
 }
