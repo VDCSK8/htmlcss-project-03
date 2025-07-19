@@ -681,3 +681,41 @@ a {
   object-fit: cover;
   transition: 0.25s;
 }
+/* <!----------------------- appointment TRANG 8 --------------------------> */
+
+.appointment {
+  margin: 85px 0 170px;
+}
+
+.appointment__inner {
+  padding: 100px 70px;
+  border-radius: 4px;
+  background: #f7fbff;
+  text-align: center;
+}
+
+.appointment__heading {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.appointment__heading::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  flex-shrink: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+
+  background: #2e80ce;
+}
+
+.appointment__desc {
+  max-width: 617px;
+  margin: 18px auto 38px;
+  font-size: 1.6rem;
+}
